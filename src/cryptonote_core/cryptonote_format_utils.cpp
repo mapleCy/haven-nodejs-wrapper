@@ -11,7 +11,7 @@ using namespace epee;
 #include "miner.h"
 #include "crypto/crypto.h"
 #include "crypto/hash.h"
-#include "serialization/binary_utils.h"
+#include "../serialization/binary_utils.h"
 
 namespace cryptonote
 {

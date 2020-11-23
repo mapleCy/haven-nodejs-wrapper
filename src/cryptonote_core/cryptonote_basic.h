@@ -10,15 +10,15 @@
 #include <vector>
 #include <cstring>  // memcmp
 #include <sstream>
-#include "serialization/serialization.h"
-#include "serialization/variant.h"
-#include "serialization/vector.h"
-#include "serialization/binary_archive.h"
-#include "serialization/json_archive.h"
-#include "serialization/debug_archive.h"
-#include "serialization/crypto.h"
-#include "serialization/pricing_record.h"
-#include "serialization/keyvalue_serialization.h" // eepe named serialization
+#include "../serialization/serialization.h"
+#include "../serialization/variant.h"
+#include "../serialization/vector.h"
+#include "../serialization/binary_archive.h"
+#include "../serialization/json_archive.h"
+#include "../serialization/debug_archive.h"
+#include "../serialization/crypto.h"
+#include "../serialization/pricing_record.h"
+#include "../serialization/keyvalue_serialization.h" // eepe named serialization
 #include "string_tools.h"
 #include "cryptonote_config.h"
 #include "crypto/crypto.h"
