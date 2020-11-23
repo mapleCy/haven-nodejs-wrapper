@@ -13,10 +13,10 @@
 #include <boost/type_traits/make_unsigned.hpp>
 
 #include "variant.h"
-#include "warnings.h"
+// #include "warnings.h"
 
-PUSH_WARNINGS
-DISABLE_VS_WARNINGS(4244)
+/*PUSH_WARNINGS
+DISABLE_VS_WARNINGS(4244)*/
 
 //TODO: fix size_t warning in x32 platform
 
@@ -165,5 +165,5 @@ struct binary_archive<true> : public binary_archive_base<std::ostream, true>
     serialize_int(t);
   }
 };
-
-POP_WARNINGS
+/*
+POP_WARNINGS*/
