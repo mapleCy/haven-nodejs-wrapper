@@ -12,7 +12,7 @@
 #include <iterator>
 #include <boost/type_traits/make_unsigned.hpp>
 
-#include "common/varint.h"
+#include "varint.h"
 #include "warnings.h"
 
 PUSH_WARNINGS
